@@ -1,0 +1,10 @@
+﻿model = "gpt-5.2-codex"
+approval_policy = "on-failure"
+sandbox_mode = "workspace-write"
+web_search = "cached"
+model_reasoning_effort = "high"
+
+[features]
+unified_exec = true
+powershell_utf8 = true
+shell_snapshot = true
