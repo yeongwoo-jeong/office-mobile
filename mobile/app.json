@@ -2,8 +2,11 @@
   "expo": {
     "name": "mobile",
     "slug": "mobile",
+    "owner": "yeongwoojeong",
+    "scheme": "com.googleusercontent.apps.588391233335-5oufcu7heqpk4a4t09vkdbaus6g2doua",
+    "projectId": "19ccb5d1-ff05-40d3-9c32-a683af3a5e6b",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "landscape",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
@@ -16,14 +19,25 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.officequest.game",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
+      "softwareKeyboardLayoutMode": "resize",
       "edgeToEdgeEnabled": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-web-browser",
+      "expo-apple-authentication"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "19ccb5d1-ff05-40d3-9c32-a683af3a5e6b"
+      }
     }
   }
 }
